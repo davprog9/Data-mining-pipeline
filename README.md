@@ -1,6 +1,7 @@
 
 # Data Pipeline Mining Knowledge From Online User Activities
-![Title image](images/title_image.png)
+![Title image](Images/title_image.png)
+
 Summary of Open Avenues project
 
 This data pipeline is designed to handle and process user-generated events in a streaming fashion, analyze the data using batch processing, and provide recommendations based on trending activities. The pipline provides user recommendations for any requested time range, in our case we have 7 days recommendation system. The pipeline is implemented in Python and utilizes various classes for different components of the pipeline.
@@ -38,7 +39,7 @@ On other hand we have the Speed layer which accepts real time activities and dis
 ## Results
 We can see our results below.
 
-![Results](images/carbon.png)
+![Results](Images/carbon.png)
 
 For first two lines we have the total amount of messages (user activities) received by both Batch and Speed consumers, in current case for 7 days we have 13300 messages for each consumer.
 
@@ -48,26 +49,26 @@ Below the notice we have our trending results. Each product's history is being r
 
 Below are the results from the Speed layer
 
-![Speed layer starting point](images/speedLayerResult.png)
+![Speed layer starting point](Images/speedLayerResult.png)
 
 Speed layer is keeping track of all possible users by recording their most recent 50 brands. Some users may only have one brand because the recorded date frame is only 7 days. 
 
 Lastly`
 
-![Last recommendation result](images/recommendationResults.png)
+![Last recommendation result](Images/recommendationResults.png)
 
 We can see our recommendations for each requested user.
 First we look at top trending item's product's brand, then we go and check for each of our users, if the trending item's brand is present in user's most recent 50 brands then we recommend that product to user.
 
 In case if we would like to see the actual data transformation with print statements, we can go ahead and remove the following commented lines from Batch and Speed layers.
 
-![commented print](images/real time display1)
+![commented print](Images/"real time display1.png")
 
-![commented print](images/real time display2)
+![commented print](Images/"real time display2.png")
 
 If we remove the above comments, we can see the real time data processing as it is below `
 
-![real time processing display](images/removed_prints.png)
+![real time processing display](Images/removed_prints.png)
 
 <a name="What I learned"></a>
 ## What I learned 

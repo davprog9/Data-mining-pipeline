@@ -1,6 +1,7 @@
 
 # Data Pipeline Mining Knowledge From Online User Activities
 ![Title image](Images/title_image.png)
+
 Summary of Open Avenues project
 
 This data pipeline is designed to handle and process user-generated events in a streaming fashion, analyze the data using batch processing, and provide recommendations based on trending activities. The pipline provides user recommendations for any requested time range, in our case we have 7 days recommendation system. The pipeline is implemented in Python and utilizes various classes for different components of the pipeline.

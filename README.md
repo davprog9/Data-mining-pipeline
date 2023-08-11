@@ -62,9 +62,9 @@ First we look at top trending item's product's brand, then we go and check for e
 
 In case if we would like to see the actual data transformation with print statements, we can go ahead and remove the following commented lines from Batch and Speed layers.
 
-![commented print](images/real time display1)
+![commented print](Images/real time display1)
 
-![commented print](images/real time display2)
+![commented print](Images/real time display2)
 
 If we remove the above comments, we can see the real time data processing as it is below `
 

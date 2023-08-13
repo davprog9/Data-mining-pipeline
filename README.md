@@ -7,12 +7,11 @@ Summary of Open Avenues project
 This data pipeline is designed to handle and process user-generated events in a streaming fashion, analyze the data using batch processing, and provide recommendations based on trending activities. The pipline provides user recommendations for any requested time range, in our case we have 7 days recommendation system. The pipeline is implemented in Python and utilizes various classes for different components of the pipeline.
 
 ## Table of contents
-* [Motivation](#Motivation)
-* [Summary of approach](#Summary-of-approach)
-* [Results](#Results)
-* [What I learned](#What-I-learned)
-* [Motivation](#Motivation)
-* [How to use this repository](#How-to-use-this-repository)
+* [Motivation](#motivation)
+* [Summary of approach](#summary-of-approach)
+* [Results](#results)
+* [What I learned](#what-I-learned)
+* [How to use this repository](#how-to-use-this-repository)
 
 
 

@@ -10,7 +10,7 @@ This data pipeline is designed to handle and process user-generated events in a 
 * [Motivation](#motivation)
 * [Summary of approach](#summary-of-approach)
 * [Results](#results)
-* [What I learned](#what-I-learned)
+* [What I learned](#what-i-learned)
 * [How to use this repository](#how-to-use-this-repository)
 
 
@@ -69,7 +69,7 @@ If we remove the above comments, we can see the real time data processing as it 
 
 ![real time processing display](Images/removed_prints.png)
 
-<a name="what I learned"></a>
+<a name="what i learned"></a>
 ## What I learned 
 * Building a product recommendation pipeline
 * Lambda Architecture design

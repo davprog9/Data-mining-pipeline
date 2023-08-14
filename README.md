@@ -69,7 +69,7 @@ If we remove the above comments, we can see the real time data processing as it 
 
 ![real time processing display](Images/removed_prints.png)
 
-<a name="What I learned"></a>
+<a name="what I learned"></a>
 ## What I learned 
 * Building a product recommendation pipeline
 * Lambda Architecture design
